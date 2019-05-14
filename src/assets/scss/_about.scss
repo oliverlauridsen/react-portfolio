@@ -1,0 +1,112 @@
+.reactIcon {
+    fill: #fff;
+    width:30px;
+    height:auto;
+    transition: 0.3s ease-in-out;
+    cursor:pointer;
+}
+
+.react {
+    &:hover {
+        fill:#00D7FF;
+        transition: 0.3s ease-in-out;
+    }
+}
+
+.javascript {
+    &:hover {
+        fill:#F0DC4F;
+        transition: 0.3s ease-in-out;
+    }
+
+}
+
+.css3 {
+    &:hover {
+        fill:#2092EC;
+        transition: 0.3s ease-in-out;
+    }
+
+}
+
+.git {
+    &:hover {
+        fill:#F15133;
+        transition: 0.3s ease-in-out;
+    }
+
+}
+
+.umbraco {
+    &:hover {
+        fill:#F37021;
+        transition: 0.3s ease-in-out;
+    }
+
+}
+
+.cSharp {
+    &:hover {
+        fill:#65AD8B;
+        transition: 0.3s ease-in-out;
+    }
+
+}
+.html5 {
+    &:hover {
+        fill:#EA6129;
+        transition: 0.3s ease-in-out;
+    }
+
+}
+.mySql {
+    &:hover {
+        fill:#2295DB;
+        transition: 0.3s ease-in-out;
+    }
+
+}
+.php {
+    &:hover {
+        fill:#445284;
+        transition: 0.3s ease-in-out;
+    }
+
+}
+.wordpress {
+    &:hover {
+        fill:#62BEDA;
+        transition: 0.3s ease-in-out;
+    }
+
+}
+
+.iconWrapper {
+    display: flex;
+    flex-direction: column;
+
+    .iconRow {
+        display: flex;
+        flex-direction: row;
+        width:100%;
+        justify-content: space-between;
+        height:60px;
+
+        &:first-child {
+            width:103%;
+        }
+    }
+}
+
+.about-text-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 70%;
+    margin-left:50px;
+    line-height: 20px;
+}
