@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {Motion, spring} from 'react-motion';
-import { BrowserRouter as Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Icons from './Icons';
 
 class MenuContent extends Component {
@@ -13,7 +13,7 @@ class MenuContent extends Component {
             <Motion style={{opacity: spring(this.props.isMenuTextVisible ? 1 : 0)}}>
               {(style) => (
                 <ul style={{opacity: style.opacity, visibility: (this.props.isMenuTextVisible ? 'visible' : 'hidden') }}>
-                  <Link to="/my-work" style={linkStyle}>
+                  <Link to="/my-work/" style={linkStyle}>
                       <li> My work </li>
                   </Link>
                       <li onClick={() => this.props.fadeElements()} className="aboutLink"> About </li>

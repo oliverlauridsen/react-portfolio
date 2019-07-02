@@ -2,7 +2,6 @@ import React, { Component, Fragment }  from "react";
 import './App.scss';
 import Header from './components/Header';
 import Routes from './components/Routes';
-
 import { BrowserRouter as Router, Route, Link, Switch} from "react-router-dom";
 
 class App extends Component {
@@ -26,6 +25,7 @@ class App extends Component {
     this.setState({ isMenuTextVisible: false});
     this.setState({ isAboutTextVisible: !this.state.isAboutTextVisible});
   }
+ 
 
   render() {
     return (
